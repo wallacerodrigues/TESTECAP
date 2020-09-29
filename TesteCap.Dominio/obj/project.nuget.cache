@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nFc3iPi39mHR8qulUs6bdFp1BIwXktlkpgEFmg7P5qEfpW2HLczC8i+E/uKuHWpvtig7AqVXaZ1yi/5a+RCqAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Walla\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Walla\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Walla\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
+    "C:\\Users\\Walla\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

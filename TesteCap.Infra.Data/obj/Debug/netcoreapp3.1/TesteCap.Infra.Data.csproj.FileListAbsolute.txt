@@ -1,0 +1,17 @@
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Infra.Data.deps.json
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Infra.Data.runtimeconfig.json
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Infra.Data.runtimeconfig.dev.json
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Infra.Data.dll
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Infra.Data.pdb
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Dominio.Core.dll
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Dominio.dll
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Dominio.Core.pdb
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\bin\Debug\netcoreapp3.1\TesteCap.Dominio.pdb
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.csprojAssemblyReference.cache
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.AssemblyInfo.cs
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.csproj.CopyComplete
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.dll
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.pdb
+C:\Users\Walla\source\repos\TesteCap\TesteCap.Infra.Data\obj\Debug\netcoreapp3.1\TesteCap.Infra.Data.genruntimeconfig.cache

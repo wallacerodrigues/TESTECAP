@@ -1,0 +1,520 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.API\\TesteCap.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\TesteCap.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\TesteCap.Infra.CrossCutting.IoC.csproj",
+        "projectName": "TesteCap.Infra.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\TesteCap.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\TesteCap.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\TesteCap.Infra.CrossCutting.Bus.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.API\\TesteCap.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.API\\TesteCap.API.csproj",
+        "projectName": "TesteCap.API",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.API\\TesteCap.API.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\TesteCap.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\NativeInjectorBootStrapper\\TesteCap.Infra.CrossCutting.IoC.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj",
+        "projectName": "TesteCap.Aplicacao",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\TesteCap.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj",
+        "projectName": "TesteCap.Dominio.Core",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj",
+        "projectName": "TesteCap.Dominio",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\TesteCap.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\TesteCap.Infra.CrossCutting.Bus.csproj",
+        "projectName": "TesteCap.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\TesteCap.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj",
+        "projectName": "TesteCap.Infra.Data",
+        "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\TesteCap.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Walla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio.Core\\TesteCap.Dominio.Core.csproj"
+              },
+              "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Walla\\source\\repos\\TesteCap\\TesteCap.Dominio\\TesteCap.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

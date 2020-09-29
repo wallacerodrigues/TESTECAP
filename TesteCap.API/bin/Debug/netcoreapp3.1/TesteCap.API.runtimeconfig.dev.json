@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Walla\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Walla\\.nuget\\packages"
+    ]
+  }
+}
